@@ -1,0 +1,16 @@
+.formBg {
+    background-color: rgb(161, 159, 159);
+    display: grid;
+    margin: 10px;
+    height: 100vh;
+    align-items: center;
+
+}
+
+.formContainer {
+    display: grid;
+    justify-content: center;
+}
+.row1{
+    width: 300px;
+}

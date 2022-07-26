@@ -1,0 +1,57 @@
+
+.mainContcatUs{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+.contactUs {
+    height: 60vh;
+    width: 40%;
+    background-color: rgb(252, 177, 137);
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputForm input {
+    height: 7vh;
+    margin: 10px auto;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+    display: grid;
+    justify-content: center;
+    width: 90%;
+
+}
+
+.inputForm {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.loginBtn {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 7vh;
+    margin: 0 auto;
+    border: none;
+    font-size: 1rem;
+}
+
+.loginBtn:hover {
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    transition: 0.5s all ease-out;
+    background-color: rgb(125, 90, 90);
+    color: white;
+}

@@ -1,0 +1,12 @@
+.midle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 15px;
+    background-color: white;
+}
+.midle>*:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease-out;
+}

@@ -1,0 +1,50 @@
+
+.addUserbg {
+    background-color: rgb(161, 159, 159);
+    height: 10vh;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mr{
+    margin-right: 1rem;
+}
+.ml{
+    margin-left: 1rem;
+}
+.mainTable{
+    background-color: rgb(161, 159, 159);
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.textColor{
+    color: black;
+}
+.evenColor:nth-child(odd){
+    background-color: rgb(231, 227, 227);
+}
+.serchBarr{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: black;
+    padding: 0.5rem;
+    width: 25rem;
+    border-radius: 5px;
+}
+
+@media(max-width:750px){
+    .serchBarr{
+        width: 100%;
+    }
+    .mr{
+        margin-right: 0.5rem;
+    }
+    .ml{
+        margin-left: 0.5rem;
+    }
+}
